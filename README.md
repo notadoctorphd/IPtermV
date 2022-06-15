@@ -10,6 +10,14 @@
 - [`fzf`](https://github.com/junegunn/fzf)
 - `xdo` (optional, for `-s` flag)
 
+## Installation
+1) clone
+2) create python env
+3) install requirements (once you've activated environment)  `pip install -r requirements.txt`
+4) run main_parser.py -f path_to_file 
+5) mkdir ~/.cache/termv
+6) mv data.json ~/.cache/termv/ (newly created data.json) 
+7) mv iptermv /usr/local/bin 
 ## Usage
 
 ```console
