@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from m3u_parser import M3uParser
 import argparse
 
