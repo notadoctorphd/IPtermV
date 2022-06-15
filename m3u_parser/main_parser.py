@@ -14,4 +14,4 @@ parser = M3uParser(timeout=5, useragent=useragent)
 parser.parse_m3u(url)
 
 print(len(parser.get_list()))
-parser.to_file(f'{url}.json')
+parser.to_file('data.json')
